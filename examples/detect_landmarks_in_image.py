@@ -16,7 +16,8 @@ fa = face_alignment.FaceAlignment(face_alignment.LandmarksType._3D, device='cpu'
                                   face_detector=face_detector, face_detector_kwargs=face_detector_kwargs)
 
 try:
-    input_img = io.imread('../test/assets/aflw-test.jpg')
+    input_img = io.imread('C:\\Users\\Zber\\Desktop\\SavedData\\Joy_15\\left000000.png')
+    # input_img = io.imread('../test/assets/aflw-test.jpg')
 except FileNotFoundError:
     input_img = io.imread('test/assets/aflw-test.jpg')
 
